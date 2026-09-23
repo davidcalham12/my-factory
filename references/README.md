@@ -26,3 +26,4 @@ cuando basta el enlace.
 | 2026-09-23 | learntla.com — TLA+ | https://learntla.com | referencia que da el examen para el validador formal del sistema |
 | 2026-09-23 | Lenguajes de verificación formal, por penetración de mercado | ver [`2026-09-23-formal-verification-languages.md`](2026-09-23-formal-verification-languages.md) | TLA+ y Lean 4 son los del examen; Quint y P como alternativas consideradas |
 | 2026-09-23 | EasySpecs — materiales del curso | https://easyspecs.ai | enunciado del examen final; Trust Specs ≈ nuestro `verification.md` |
+| 2026-09-23 | Enunciado del examen final (Harness Engineering) | ver [`2026-09-23-examen-final-enunciado.md`](2026-09-23-examen-final-enunciado.md) | lo que aprueba y lo que no; entregables, `/docs`, presentación y slide de presupuesto; el plan que lo decodifica está en `novaforge-v2/docs/brief/storymaker-exam-plan.md` |

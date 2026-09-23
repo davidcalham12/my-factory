@@ -12,7 +12,7 @@ my-factory/
 │   └── YYYY-MM-DD-<tema>.md
 ├── skills/              las skills instaladas en ~/.claude/skills/, tal cual, con su origen
 │   └── README.md
-└── tools/               utilidades propias (exportador a Langfuse, instrumentos de medida)
+└── tools/               utilidades propias (exportador a Langfuse, instrumentos de medida) — ver tools/README.md
 ```
 
 ## Reglas
