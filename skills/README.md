@@ -20,11 +20,18 @@ entera antes de instalarse. Ninguna ejecuta código.
 | `fastapi` | escrita para novaforge-v2 | — | un folder por feature + commons, SSE, tests sin red ni coste |
 | `react` | escrita para novaforge-v2 | — | React + TS + Vite: efectos, fetching, SSE, error boundaries |
 | `sentence-transformers` | escrita para novaforge-v2 | — | embeddings locales: modelo, dimensión, lotes, normalización |
+| `pydantic` | escrita aquí desde los docs oficiales de Pydantic v2 | — | validar en un borde: `extra="forbid"` como contrato, `errors()` como lista de preguntas, dónde vive una regla |
+| `langfuse` | escrita aquí desde los docs del SDK Python v4 | — | sesiones, spans, scores de validadores, prompts versionados, máscara; la trampa de la región US |
+| `playwright` | escrita aquí desde los docs oficiales de Playwright Python | — | imprimir HTML a PDF con Chromium; separar el renderizador puro del navegador |
 
 Añadidas el 2026-09-23 desde la máquina virtual de construcción (estaban en su
 `~/.claude/skills/` desde el 21–22; siete de las que arriba figuraban como
-pendientes). Pendientes de instalar, sólo las del examen y sin fuente todavía:
-`lean4`, `tlaplus`, `langfuse`, `playwright-mcp`, `html-to-pdf`, `pydantic`.
+pendientes). Añadidas el 2026-09-23 para el examen, escritas desde la documentación oficial
+de cada tecnología porque no hay skill publicada fiable: `pydantic`, `langfuse`,
+`playwright` (que cubre el hueco que la lista llamaba `html-to-pdf`: el PDF se
+imprime con Chromium y no añade dependencia nueva). Pendientes: `lean4` y
+`tlaplus`, que esperan a que `elan` y un JDK se instalen en la máquina, y
+`playwright-mcp`, que es configuración de servidor MCP y no una técnica.
 
 Evaluadas y no instaladas: `to-spec` (publica a un gestor de incidencias; se
 tomó su plantilla), `SecureSkills-io/sqlite-skill` (rechazada, motivo en
