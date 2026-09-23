@@ -13,11 +13,18 @@ entera antes de instalarse. Ninguna ejecuta código.
 | `code-review` | mattpocock/skills | MIT | revisión en dos ejes (estándares · spec) con subagentes |
 | `handoff` | mattpocock/skills | MIT | traspaso compacto entre sesiones, redactando secretos y PII |
 | `ponytail` | DietrichGebert/ponytail | MIT | escalera YAGNI → ya existe → stdlib → nativo → dependencia → una línea → mínimo. **Sólo la skill; sus hooks de Node no se instalan** |
+| `feature-sliced-design` (+ 9 references) | feature-sliced/skills | MIT | dónde va cada cosa en el frontend (capas, slices, API pública, imports hacia abajo) |
+| `sqlite` | escrita para novaforge-v2 | — | `sqlite3` estándar, migraciones numeradas, transacciones, sin ORM |
+| `sqlite-vec` | escrita para novaforge-v2 desde el README de asg017/sqlite-vec y los docs de Python | extensión: MIT / Apache-2.0 | vec0, BLOBs float32, KNN, unir aciertos a sus filas |
+| `verification` | construida para novaforge-v2 desde el brief §2.2 y el Anexo D | — | `verification.md`: garantías con T/A/I/D/U, criticidad, huecos declarados |
+| `fastapi` | escrita para novaforge-v2 | — | un folder por feature + commons, SSE, tests sin red ni coste |
+| `react` | escrita para novaforge-v2 | — | React + TS + Vite: efectos, fetching, SSE, error boundaries |
+| `sentence-transformers` | escrita para novaforge-v2 | — | embeddings locales: modelo, dimensión, lotes, normalización |
 
-Pendientes de instalar (regla de la profesora: una por tecnología que entre):
-`feature-sliced-design`, `sqlite-vec`, `verification` (se construye desde el
-artifact), `fastapi`, `react`, `sentence-transformers`, `lean4`, `tlaplus`,
-`langfuse`, `playwright-mcp`, `html-to-pdf`, `pydantic`.
+Añadidas el 2026-09-23 desde la máquina virtual de construcción (estaban en su
+`~/.claude/skills/` desde el 21–22; siete de las que arriba figuraban como
+pendientes). Pendientes de instalar, sólo las del examen y sin fuente todavía:
+`lean4`, `tlaplus`, `langfuse`, `playwright-mcp`, `html-to-pdf`, `pydantic`.
 
 Evaluadas y no instaladas: `to-spec` (publica a un gestor de incidencias; se
 tomó su plantilla), `SecureSkills-io/sqlite-skill` (rechazada, motivo en
