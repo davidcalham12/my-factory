@@ -37,3 +37,6 @@ Evaluadas y no instaladas: `to-spec` (publica a un gestor de incidencias; se
 tomó su plantilla), `SecureSkills-io/sqlite-skill` (rechazada, motivo en
 `novaforge-v2/docs/architecture.md` §7.1), `rtk` (binario; riesgo para el
 orquestador, ver `references/`).
+| `fastmcp` | StoryMaker `.claude/skills/fastmcp` (`b95abbf`) | — | construir el servidor MCP del proyecto (SPEC-EXAM-005 O2) con FastMCP |
+| `novaforge` | StoryMaker `.claude/skills/novaforge` (`b95abbf`) | — | el procedimiento que conduce una novela entera con un solo orquestador (seis etapas, gate por capítulo) |
+| `storymaker` (+ `units/`) | StoryMaker `.claude/skills/storymaker` (`b95abbf`) | — | el mismo procedimiento partido en unidades para el conductor por etapas (SPEC-EXAM-003); `units/chapter.md` es un capítulo de principio a fin |
