@@ -28,4 +28,4 @@ my-factory/
 ## Proyectos que usan esto
 
 - `novaforge-v2` — el harness de novelas (rama `backend-v1` viva).
-- `storyMaker` — el proyecto del examen final (por crear).
+- `StoryMaker` — el proyecto del examen final, entregado el 2026-09-25: https://github.com/davidcalham12/StoryMaker
